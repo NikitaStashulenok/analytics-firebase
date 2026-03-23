@@ -33,7 +33,7 @@ export async function trackEvent(eventName, params = {}) {
 
   logEvent(analytics, eventName, {
     ...params,
-    debug_mode: true,
+    debug_mode: false,
   });
 }
 
